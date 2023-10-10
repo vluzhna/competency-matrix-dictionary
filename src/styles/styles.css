@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.topic-list {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.topic-list h2 {
+  margin-bottom: 10px;
+}
+
+.topic-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.topic-list li {
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+.topic-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.topic-content {
+  flex: 2;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.topic-content h2 {
+  margin-bottom: 10px;
+}
