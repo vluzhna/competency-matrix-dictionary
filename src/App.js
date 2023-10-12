@@ -1,4 +1,3 @@
-import './App.css';
 import TopicList from "./components/Sidebar/TopicList";
 import TopicContent from "./components/Content/TopicContent";
 import { useState } from "react";
