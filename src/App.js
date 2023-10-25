@@ -1,4 +1,3 @@
-import './App.css';
 import TopicList from "./components/Sidebar/TopicList";
 import TopicContent from "./components/Content/TopicContent";
 import { useState } from "react";
@@ -6,7 +5,7 @@ import { CONTENT_MAP, TOPIC_LIST } from "./data";
 
 function App() {
     const [selectedTopic, setSelectedTopic] = useState('');
-    
+
     const onSelectTopic = (topic) => {
         console.log('topic', topic)
         setSelectedTopic(topic);
