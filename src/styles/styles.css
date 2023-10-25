@@ -6,8 +6,6 @@
 
 .topic-list {
   flex: 1;
-  padding: 20px;
-  border: 1px solid #ccc;
   margin-right: 10px;
 }
 
@@ -27,7 +25,7 @@
 }
 
 .topic-list li:hover {
-  background-color: #f0f0f0;
+  background-color: #d2bbff78;
 }
 
 .topic-content {
@@ -38,4 +36,25 @@
 
 .topic-content h2 {
   margin-bottom: 10px;
+}
+
+.section div {
+  padding-left: 15px;
+}
+
+.sectionHeader, subsectionHeader {
+  background-color: #d2bbff33;
+  padding: 10px;
+  margin: 5px;
+}
+
+.sectionHeader:hover {
+  color: #8721a4;
+  cursor: pointer;
+  background-color: #d2bbff78;
+}
+
+.subsectionHeader:hover {
+  color: #8721a4;
+  cursor: pointer;
 }
